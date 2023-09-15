@@ -1,7 +1,7 @@
 # aqa-code
 Код с лекций Автоматизация тестирования
 
-[![Build status](https://ci.appveyor.com/api/projects/status/31pf8okq9xkf62mh?svg=true)](https://ci.appveyor.com/project/Vemant/qamid-66-vemant-autotesting-4-2-1-2)
+[![Build status](https://ci.appveyor.com/api/projects/status/1afu7v1ghb1grbw4?svg=true)](https://ci.appveyor.com/project/Vemant/qamid-66-vemant-autotesting-4-2-3)
 
 1. [x] [Основы автоматизации](basics/)
 1. [x] [Тестирование API, CI](api-ci/)
