@@ -22,7 +22,7 @@ class MainTest {
                 .prettyPeek()
         // Проверки
                 .then()
-                .statusCode(250)
+                .statusCode(200)
                 .body("data", equalTo("some value"))
         ;
     }
