@@ -9,21 +9,21 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
     @Test
-    public void MobileBankApiTestV7() {
+    public void testPostmanEcho() {
         // Given - When - Then
         // Предусловия
         given()
                 .log().all()
                 .baseUri("https://postman-echo.com")
-                .body("some data") // отправляемые данные (заголовки и query можно выставлять аналогично)
+                .body("some value") // отправляемые данные (заголовки и query можно выставлять аналогично)
         // Выполняемые действия
                 .when()
                 .post("/post")
                 .prettyPeek()
         // Проверки
                 .then()
-                .statusCode(200)
-                .body("data", equalTo("some data"))
+                .statusCode(250)
+                .body("data", equalTo("some value"))
         ;
     }
 }
